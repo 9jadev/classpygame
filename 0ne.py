@@ -36,7 +36,7 @@ while run:
             run = False
             
             
-        if event.type == pygame.KEYDOWN and  event.key == pygame.K_SPACE:
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
             first_open = True
             second_open = True
             third_open = True
